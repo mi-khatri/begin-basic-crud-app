@@ -41,12 +41,13 @@
     ]
   },
   "scripts": {
-    "start": "npx sandbox"
+    "start": "node app.js"
   },
   "dependencies": {
     "@architect/functions": "^4.0.0",
     "@architect/sandbox": "^4.1.1",
     "@begin/data": "^3.0.0",
-    "tiny-json-http": "^7.3.0"
+    "tiny-json-http": "^7.3.0",
+    "express": ""
   }
 }
